@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+body{
+    overflow-x: hidden; 
+     /* hide scroller */
+}
+
+#page2 h1{
+    font-size: 45vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
