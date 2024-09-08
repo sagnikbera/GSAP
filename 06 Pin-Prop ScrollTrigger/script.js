@@ -1,8 +1,8 @@
 gsap.to("#page2 h1",{
     transform: "translateX(-210%)",
     scrollTrigger:{
-        trigger:"#page2",
-        // trigger:"#page2 h1",
+        // trigger:"#page2",
+        trigger:"#page2 h1",
 
 //both trigger have diff animation
 
