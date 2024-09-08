@@ -2,7 +2,7 @@ GSAP CDN : https://cdnjs.com/libraries/gsap
 scrollTrigger CDN : https://cdnjs.com/libraries/ScrollTrigger
 Locomotive CDN : https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/
 
-In head , have to add Locomotive Css -- Opend URL(link)
+In head , have to add Locomotive Css -- Opend URL(link) , Locomotive js in body
 
 
 
