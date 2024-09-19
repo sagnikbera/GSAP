@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Cascadia;
+    src: url(Cascadia.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cascadia;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    background-image: url(bgc.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+
+#nav h2{
+    font-size: 40px;
+}
+
+#nav i{
+    font-size: 40px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    background-color: rgba(245, 222, 179, 0.486);
+    /* backdrop-filter is only be worked if the color tranparency lvl is bellow 50% */
+    top: 0;
+    /* right: 0; */
+    right: -40%; 
+    /* same as the width to hide from the screen  */
+    /* and for this we have to hive the "overflow" property to the body  */
+    backdrop-filter: blur(10px);
+
+
+    padding: 150px 80px;
+}
+
+#full h4{
+    gap: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#full i{
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 50%;
+    padding: 8px;
+}
