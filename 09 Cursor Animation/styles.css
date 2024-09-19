@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Cascadia;
+    src: url(Cascadia.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cascadia;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cursor{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+
+    /* inner text */
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 9;
+    /* to make the cursor in the top  */
+}
+
+#img{
+    height: 30vw;
+    width: 70vw;
+    background-color: red;
+    /* background-image: url(img.jfif);
+    background-position: bottom;
+    background-size: cover; */
+    position: relative;
+}
+
+#img img{
+    height: 100%;
+    width: 100%;
+    object-fit: conver;
+}
+
+#overlay{
+    background-color: red;
+    opacity: 0;
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    z-index: 10;
+    /* it is on the cursor  */
+}
