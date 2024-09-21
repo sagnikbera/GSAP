@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Cascadia;
+    src: url(Cascadia.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cascadia;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    background-color: bisque;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.sec1{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 3.5vw;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+}
+
+nav h1{
+    font-size: 2vw;
+}
+
+.part2 h4{
+    font-size: 1.2vw;
+}
+
+nav button{
+    padding: 0.8vw 1.5vw;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+nav button:hover{
+    background-color: black;
+    color: white;
+}
+
+nav i{
+    display: inline-block;
+    rotate: 35deg;
+}
+
+.center{
+    padding: 3vw 3.5vw;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+#centerP1{
+    height: 100%;
+    width: 40%;
+}
+#centerP2{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+#centerP1 h1{
+    font-size: 3.5vw;
+    line-height: 4vw;
+}
+
+#centerP1 p{
+    font-size: 1.2vw;
+    line-height: 1.7vw;
+    width: 95%;
+    padding-top: 1.5vw;
+}
+
+#centerP1 button{
+    background-color: black;
+    color: white;
+    border-radius: 0.5vw;
+    padding: 0.8vw 1vw;
+    border: none;
+    font-size: 1.2vw;
+    margin-top: 1.5vw;
+}
+
+#centerP1 button:hover{
+    background-color: #9AE975;
+    color: black;
+}
+
+#centerP2 img{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding-right: 2vw;
+}
+
+#sec1btm{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5vw;
+}
+
+#sec1btm img{
+    height: 2vw;
+}
+
+#am,#nt, #zm {
+    scale: 2.5;
+}
+
+.sec2 .servics{
+    /* background-color: red; */
+    padding: 2vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+    margin-top: 2vw;
+}
+
+.servics h3{
+    background-color: #9AE975;
+    padding: 0.6vw 1.4vw;
+    font-size: 1.8vw;
+    font-weight: 900;
+    border-radius: 0.5vw;
+}
+
+.servics p{
+    width: 50%;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.container{
+    min-height: 86vh;
+    width: 100%;
+    padding: 2vw 3.5vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.elem{
+    margin-top: 2vw;
+    flex-shrink: 0;
+    height: 30vh;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 0.5vw;
+    box-shadow: 2px 10px 2px black;
+    padding: 2vw;
+    display: flex;
+}
+
+.elemP1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 1vw;
+}
+
+.elemP2{
+    height: 100%;
+    width: 50%;
+}
+
+.elemP2 img{
+    height: 100%;
+}
+
+.elemP1 h2{
+    font-size: 1.8vw;
+    background-color: #9AE975;
+    padding: 0.5vw;
+}
+
+.elemP1 i{
+    color: white;
+    background-color: black;
+    padding: 0.4vw;
+    border-radius: 50%;
+    font-size: 1.5vw;
+}
+
+.black i{
+    background-color: white;
+    color: black;
+}
+
+.black h4{
+    color: wheat;
+}
+
+
+.elemP1 h4{
+    font-size: 1.2vw;
+}
+
+.black{
+    background-color: black;
+    box-shadow: 2px 10px 2px white;
+}
